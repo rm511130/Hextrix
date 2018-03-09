@@ -1,0 +1,8 @@
+---
+applications:
+- name: hextrix
+  host: hextrix-${random-word}
+  memory: 500M
+  instances: 1
+  maximum_app_disk_in_mb: 3096
+  timeout: 60
